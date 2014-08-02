@@ -11,18 +11,14 @@
 
 package Prueba1;
 
-/**
- *
- * @author 15
- */
+import Vista.Principal;
+
 public class Prueba1 {
 
-    
-    double resultado;
-
-public double CalcularResultado (double valor1, double valor2) {
-	resultado = valor1 + valor2;
-	return resultado;
-	}
-
+    public static void main(String[] args){
+        
+        Principal principal = new Principal();
+        principal.setVisible(true);
+        
+    }
 }
