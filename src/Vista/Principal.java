@@ -99,7 +99,8 @@ public class Principal extends javax.swing.JFrame {
     private void btnCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcularActionPerformed
         double valor1, valor2, resultado;
         try {
-           // Inicialización de variables 
+           // Inicialización de variables
+           // a utilizar en el programa 
             valor1 = Double.parseDouble (txtValor1.getText());
             valor2 = Double.parseDouble (txtValor2.getText());
 
